@@ -29,7 +29,7 @@ define('DB_USER', 'freshersmagazine');
 define('DB_PASSWORD', 'freshersmagazine');
 
 /** MySQL hostname */
-define('DB_HOST', 'freshersmagazine.ct3aqqij2ijm.ap-south-1.rds.amazonaws.com');
+define('DB_HOST', 'freshersmagazine.ct3aqqij2ijm.ap-south-1.rds.amazonaws.com:3306');
 
 /** Database Charset to use in creating database tables. */
 define('DB_CHARSET', 'utf8');
