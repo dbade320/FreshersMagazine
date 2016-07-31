@@ -1,3 +1,19 @@
+Skip to content
+This repository
+Search
+Pull requests
+Issues
+Gist
+ @dbade320
+ Unwatch 1
+  Star 0
+  Fork 0 dbade320/wordpress_1
+ Code  Issues 0  Pull requests 0  Wiki  Pulse  Graphs  Settings
+Branch: master Find file Copy pathwordpress_1/wordpress/wp-config-sample.php
+4619fc0  3 hours ago
+@dbade320 dbade320 wordpress is uploading...
+1 contributor
+RawBlameHistory     90 lines (76 sloc)  2.7 KB
 <?php
 /**
  * The base configuration for WordPress
@@ -17,26 +33,19 @@
  *
  * @package WordPress
  */
-
 // ** MySQL settings - You can get this info from your web host ** //
 /** The name of the database for WordPress */
-define('DB_NAME', 'freshersmagazine');
-
+define('DB_NAME', 'database_name_here');
 /** MySQL database username */
-define('DB_USER', 'freshersmagazine');
-
+define('DB_USER', 'username_here');
 /** MySQL database password */
-define('DB_PASSWORD', 'freshersmagazine');
-
+define('DB_PASSWORD', 'password_here');
 /** MySQL hostname */
-define('DB_HOST', 'freshersmagazine.ct3aqqij2ijm.ap-south-1.rds.amazonaws.com:3306');
-
+define('DB_HOST', 'localhost');
 /** Database Charset to use in creating database tables. */
 define('DB_CHARSET', 'utf8');
-
 /** The Database Collate type. Don't change this if in doubt. */
 define('DB_COLLATE', '');
-
 /**#@+
  * Authentication Unique Keys and Salts.
  *
@@ -54,9 +63,7 @@ define('AUTH_SALT',        'put your unique phrase here');
 define('SECURE_AUTH_SALT', 'put your unique phrase here');
 define('LOGGED_IN_SALT',   'put your unique phrase here');
 define('NONCE_SALT',       'put your unique phrase here');
-
 /**#@-*/
-
 /**
  * WordPress Database Table prefix.
  *
@@ -64,7 +71,6 @@ define('NONCE_SALT',       'put your unique phrase here');
  * a unique prefix. Only numbers, letters, and underscores please!
  */
 $table_prefix  = 'wp_';
-
 /**
  * For developers: WordPress debugging mode.
  *
@@ -78,12 +84,11 @@ $table_prefix  = 'wp_';
  * @link https://codex.wordpress.org/Debugging_in_WordPress
  */
 define('WP_DEBUG', false);
-
 /* That's all, stop editing! Happy blogging. */
-
 /** Absolute path to the WordPress directory. */
 if ( !defined('ABSPATH') )
 	define('ABSPATH', dirname(__FILE__) . '/');
-
 /** Sets up WordPress vars and included files. */
 require_once(ABSPATH . 'wp-settings.php');
+Contact GitHub API Training Shop Blog About
+© 2016 GitHub, Inc. Terms Privacy Security Status Help
