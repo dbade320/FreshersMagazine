@@ -1,19 +1,3 @@
-Skip to content
-This repository
-Search
-Pull requests
-Issues
-Gist
- @dbade320
- Unwatch 1
-  Star 0
-  Fork 0 dbade320/wordpress_1
- Code  Issues 0  Pull requests 0  Wiki  Pulse  Graphs  Settings
-Branch: master Find file Copy pathwordpress_1/wordpress/wp-config-sample.php
-4619fc0  3 hours ago
-@dbade320 dbade320 wordpress is uploading...
-1 contributor
-RawBlameHistory     90 lines (76 sloc)  2.7 KB
 <?php
 /**
  * The base configuration for WordPress
